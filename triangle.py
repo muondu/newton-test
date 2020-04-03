@@ -1,10 +1,11 @@
-input1 = int(input("Enter your first length of a triangle:  "))
-input2 = int(input("Enter your second length of a triangle:  "))
-input3 = int(input("Enter your thiird length of a triangle:  "))
-def is_triangle():
-	if input1 == input2 and input3:
-		print("Yes")
+def logical():
+	input1 = int(input("Enter your first length:  "))
+	input2 = int(input("Enter your second length:  "))
+	input3 = int(input("Enter your third length:  "))
+logical()
+def is_triangle(a,b,c):
+	if a + b > c and b + c > a and a + c > b:
+		print("It is a triangle")
 	else:
-		print("NO")
-		
-is_triangle()
+		print("It is not a triangle")
+is_triangle(input1,input2,input3)
