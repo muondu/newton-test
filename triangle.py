@@ -11,8 +11,6 @@ def logical():
 	
 logical()
 
-global input2
-global input3
 def is_triangle():
 	#Checks if it can make a triangle
 	if input1**2 + input2**2 == input3**2:
