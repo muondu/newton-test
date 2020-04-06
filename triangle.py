@@ -1,12 +1,9 @@
 def logical():
 	#The first input
-	global input1
 	input1 = int(input("Enter your length:  "))
 	#The second input'
-	global input2
 	input2 = int(input("Enter your length:  "))
 	#The third input
-	global input3
 	input3 = int(input("Enter your length:  "))
 	
 logical()
